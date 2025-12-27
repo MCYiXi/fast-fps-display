@@ -1,6 +1,6 @@
 # Fast FPS Display
 
-一个轻量级的Minecraft 1.20.1 Fabric模组，用于在屏幕左上角实时显示帧率。
+一个轻量级的Minecraft模组，用于在屏幕左上角实时显示帧率。
 
 ## ✨ 功能特性
 
