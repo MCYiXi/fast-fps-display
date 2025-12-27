@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "fast-fps-display",
+	"version": "1.20.1",
+	"name": "Fast FPS Display",
+	"description": "一款以极低性能实现FPS显示的模组",
+	"authors": [
+		"MCYiXi"
+	],
+	"contact": {
+		"homepage": "No",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fast-fps-display/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mcyixi.ffd.FastFPSDisplay"
+		],
+		"fabric-datagen": [
+			"com.mcyixi.ffd.FastFPSDisplayDataGenerator"
+		],
+		"client": [
+			"com.mcyixi.ffd.FastFPSDisplayClient"
+		]
+	},
+	"mixins": [
+		"fast-fps-display.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": ">=0.91.0"
+	}
+}
